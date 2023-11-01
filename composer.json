@@ -1,0 +1,19 @@
+{
+    "name": "farzinbidokhti/loggy",
+    "description": "Record user's activity.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Farzinbidokhti\\Loggy\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FarzinBidokhti\\Loggy\\LoggyServiceProvider"
+            ]
+        }
+    }
+}
